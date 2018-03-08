@@ -1,0 +1,1061 @@
+Started GET "/calc/4/division/2" for 127.0.0.1 at 2018-03-08 16:36:27 +0900
+  
+ActionController::RoutingError (uninitialized constant CalcsController):
+  
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:269:in `const_get'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:269:in `block in constantize'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `each'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `inject'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `constantize'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/http/request.rb:78:in `controller_class'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:43:in `controller'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:29:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/migration.rb:556:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calc/4/calc/2" for 127.0.0.1 at 2018-03-08 16:47:35 +0900
+  
+ActionController::RoutingError (uninitialized constant CalcsController):
+  
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:269:in `const_get'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:269:in `block in constantize'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `each'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `inject'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `constantize'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/http/request.rb:78:in `controller_class'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:43:in `controller'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:29:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/migration.rb:556:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calc/4/calc/2" for 127.0.0.1 at 2018-03-08 16:51:05 +0900
+  
+ActionController::RoutingError (uninitialized constant CalcsController):
+  
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:269:in `const_get'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:269:in `block in constantize'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `each'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `inject'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/inflector/methods.rb:267:in `constantize'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/http/request.rb:78:in `controller_class'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:43:in `controller'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:29:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/migration.rb:556:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calc/4/calc/2" for 127.0.0.1 at 2018-03-08 16:52:20 +0900
+Processing by Calc2Controller#calc as HTML
+  Parameters: {"value1"=>"4", "calc"=>"calc", "value2"=>"2"}
+Completed 406 Not Acceptable in 204ms
+
+
+  
+ActionController::UnknownFormat (Calc2Controller#calc is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/abstract_controller/base.rb:186:in `process_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/rendering.rb:30:in `process_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:131:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/abstract_controller/callbacks.rb:19:in `process_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/rescue.rb:20:in `process_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/notifications.rb:166:in `block in instrument'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/notifications.rb:166:in `instrument'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/abstract_controller/base.rb:124:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionview-5.1.4/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:189:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:253:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:31:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/migration.rb:556:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calc/4/calc/2" for 127.0.0.1 at 2018-03-08 16:56:39 +0900
+  
+AbstractController::ActionNotFound (The action 'calc' could not be found for Calc2Controller):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/abstract_controller/base.rb:119:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionview-5.1.4/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:189:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:253:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:31:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/migration.rb:556:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calc/4/calc/2" for 127.0.0.1 at 2018-03-08 16:57:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/calc/4/calc/2"):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calc2/4/calc/2" for 127.0.0.1 at 2018-03-08 16:57:51 +0900
+  
+AbstractController::ActionNotFound (The action 'calc' could not be found for Calc2Controller):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/abstract_controller/base.rb:119:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionview-5.1.4/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:189:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_controller/metal.rb:253:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:31:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/migration.rb:556:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.4/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:624:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:438:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/server.rb:302:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.11.3/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/calc2/4/calc/2" for 127.0.0.1 at 2018-03-08 16:58:27 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"calc", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2746ms (Views: 2743.1ms)
+
+
+Started GET "/calc2/4/calc/2" for 127.0.0.1 at 2018-03-08 17:00:48 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"calc", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 20.1ms)
+
+
+Started GET "/calc2/4/calc/2" for 127.0.0.1 at 2018-03-08 17:02:34 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"calc", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 23.8ms)
+
+
+Started GET "/calc2/4/addition/2" for 127.0.0.1 at 2018-03-08 17:03:17 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 21.6ms)
+
+
+Started GET "/calc2/4/addition/2" for 127.0.0.1 at 2018-03-08 17:49:23 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 418ms (Views: 233.1ms)
+
+
+Started GET "/calc2/4/addition/2" for 127.0.0.1 at 2018-03-08 17:50:45 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 18.4ms)
+
+
+Started GET "/calc2/4/addition/2" for 127.0.0.1 at 2018-03-08 17:51:20 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 18.2ms)
+
+
+Started GET "/calc2/4/addition/2" for 127.0.0.1 at 2018-03-08 17:52:11 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"4", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.2ms)
+
+
+Started GET "/calc2/6/addition/3" for 127.0.0.1 at 2018-03-08 17:52:25 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"addition", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.4ms)
+
+
+Started GET "/calc2/6/addition/3" for 127.0.0.1 at 2018-03-08 17:52:41 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"addition", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 20.5ms)
+
+
+Started GET "/calc2/6/addition/3" for 127.0.0.1 at 2018-03-08 17:55:20 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"addition", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 148ms (Views: 145.8ms)
+
+
+Started GET "/calc2/6/subtraction/3" for 127.0.0.1 at 2018-03-08 18:11:11 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"subtraction", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 31.1ms)
+
+
+Started GET "/calc2/6/subtraction/3" for 127.0.0.1 at 2018-03-08 18:14:23 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"subtraction", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 37.0ms)
+
+
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 18:14:29 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 21.9ms)
+
+
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 18:15:25 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 22.2ms)
+
+
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 18:16:45 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 19.5ms)
+
+
+Started GET "/calc2/6/multiplication/3" for 127.0.0.1 at 2018-03-08 18:18:18 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"multiplication", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 23.7ms)
+
+
+Started GET "/calc2/6/multiplication/3" for 127.0.0.1 at 2018-03-08 18:18:56 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"multiplication", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 19.6ms)
+
+
+Started GET "/calc2/6/%E3%82%8C%E3%82%8C/3" for 127.0.0.1 at 2018-03-08 18:34:43 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"れれ", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else
+...ze;@output_buffer.append=( else @calc = !("division", "multi...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...nd=( else @calc = !("division", "multiplication", "subtracti...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...!("division", "multiplication", "subtraction", "addition") t...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...multiplication", "subtraction", "addition") then );@output_b...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_then, expecting ')'
+..."subtraction", "addition") then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/6/%E3%82%8C%E3%82%8C/3" for 127.0.0.1 at 2018-03-08 20:10:12 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"れれ", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else
+...ze;@output_buffer.append=( else @calc = !("division", "multi...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...nd=( else @calc = !("division", "multiplication", "subtracti...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...!("division", "multiplication", "subtraction", "addition") t...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...multiplication", "subtraction", "addition") then );@output_b...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_then, expecting ')'
+..."subtraction", "addition") then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 20:16:29 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else
+...ze;@output_buffer.append=( else @calc = !("division", "multi...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...nd=( else @calc = !("division", "multiplication", "subtracti...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...!("division", "multiplication", "subtraction", "addition") t...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+...multiplication", "subtraction", "addition") then );@output_b...
+...                              ^
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_then, expecting ')'
+..."subtraction", "addition") then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected ',', expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 20:17:04 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 20:17:17 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 20:19:06 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/6/division/3" for 127.0.0.1 at 2018-03-08 20:19:37 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"6", "calc"=>"division", "value2"=>"3"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/1/addition/2" for 127.0.0.1 at 2018-03-08 20:24:04 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 201ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "subtraction" then )...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+...lsif @calc = "subtraction" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;   else 
+            ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:5: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else, expecting ')'
+app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/1/addition/2" for 127.0.0.1 at 2018-03-08 20:29:47 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "multiplication" the...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+...f @calc = "multiplication" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+...e;@output_buffer.append=( elsif @calc = "division" then );@o...
+...                          ^~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+...( elsif @calc = "division" then );@output_buffer.safe_append...
+...                           ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;   else 
+            ^~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/nagaitomoko/camp/calc2/app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:7: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_elsif
+app/views/calc2/calc2.html.erb:9: syntax error, unexpected keyword_then, expecting ')'
+app/views/calc2/calc2.html.erb:11: syntax error, unexpected keyword_else, expecting ')'
+app/views/calc2/calc2.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+app/views/calc2/calc2.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calc2/calc2.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calc2/1/addition/2" for 127.0.0.1 at 2018-03-08 20:30:22 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"addition", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 354ms (Views: 352.0ms)
+
+
+Started GET "/calc2/1/rere/2" for 127.0.0.1 at 2018-03-08 20:30:45 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"rere", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.5ms)
+
+
+Started GET "/calc2/1/subtraction/2" for 127.0.0.1 at 2018-03-08 20:31:50 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"subtraction", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 21.9ms)
+
+
+Started GET "/calc2/1/%E3%82%8C%E3%82%8C/2" for 127.0.0.1 at 2018-03-08 20:32:54 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"れれ", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 17.4ms)
+
+
+Started GET "/calc2/1/%E3%82%8C%E3%82%8C/2" for 127.0.0.1 at 2018-03-08 20:41:33 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"れれ", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 24.1ms)
+
+
+Started GET "/calc2/1/%E3%81%82%E3%81%82/2" for 127.0.0.1 at 2018-03-08 20:41:47 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"ああ", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 20.5ms)
+
+
+Started GET "/calc2/1/%E3%81%82%E3%81%82/2" for 127.0.0.1 at 2018-03-08 20:48:54 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"ああ", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 20.4ms)
+
+
+Started GET "/calc2/1/subtraction/2" for 127.0.0.1 at 2018-03-08 20:49:06 +0900
+Processing by Calc2Controller#calc2 as HTML
+  Parameters: {"value1"=>"1", "calc"=>"subtraction", "value2"=>"2"}
+  Rendering calc2/calc2.html.erb within layouts/application
+  Rendered calc2/calc2.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 22ms (Views: 19.8ms)
+
+
